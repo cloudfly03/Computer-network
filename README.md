@@ -181,3 +181,95 @@
 [如何基于 UDP 协议实现可靠传输？](https://www.cnblogs.com/xiaolincoding/p/16347800.html)
 
 # 网络层
+## IP
+[概述：P41-P49](https://www.bilibili.com/video/BV1c4411d7jb/?p=41&vd_source=894a223b85ae44e61e16dcd1a7356db0)
+
+[IP 基础知识全家桶](https://xiaolincoding.com/network/4_ip/ip_base.html)
+
+## 路由选择
+[选路算法：Dijkstra是如何解决最短路问题的?](http://121.43.36.222:5244/%E8%B5%84%E6%BA%90/14-%E6%9E%81%E5%AE%A2%E6%97%B6%E9%97%B4/%E4%B8%93%E6%A0%8F%E8%AF%BE/179%E4%B8%9A%E5%8A%A1%E5%BC%80%E5%8F%91%E7%AE%97%E6%B3%9550%E8%AE%B2/17%EF%BD%9C%E9%80%89%E8%B7%AF%E7%AE%97%E6%B3%95%EF%BC%9ADijkstra%E6%98%AF%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9C%80%E7%9F%AD%E8%B7%AF%E9%97%AE%E9%A2%98%E7%9A%84%EF%BC%9F.md)
+
+[选路算法：链路状态算法是如何分发全局信息的](http://121.43.36.222:5244/%E8%B5%84%E6%BA%90/14-%E6%9E%81%E5%AE%A2%E6%97%B6%E9%97%B4/%E4%B8%93%E6%A0%8F%E8%AF%BE/179%E4%B8%9A%E5%8A%A1%E5%BC%80%E5%8F%91%E7%AE%97%E6%B3%9550%E8%AE%B2/18%EF%BD%9C%E9%80%89%E8%B7%AF%E7%AE%97%E6%B3%95%EF%BC%9A%E9%93%BE%E8%B7%AF%E7%8A%B6%E6%80%81%E7%AE%97%E6%B3%95%E6%98%AF%E5%A6%82%E4%BD%95%E5%88%86%E5%8F%91%E5%85%A8%E5%B1%80%E4%BF%A1%E6%81%AF%E7%9A%84.md)
+
+## ICMP
+[ping 的工作原理](https://xiaolincoding.com/network/4_ip/ping.html)
+
+[网际控制报文协议P55](https://www.bilibili.com/video/BV1c4411d7jb/?p=55&vd_source=894a223b85ae44e61e16dcd1a7356db0)
+
+### DHCP
+[动态主机配置协议P69](https://www.bilibili.com/video/BV1c4411d7jb/?p=69&vd_source=894a223b85ae44e61e16dcd1a7356db0)
+
+### NAT
+[《图解TCP IP(第5版》第5.6章 ](https://github.com/3masterplus/book/blob/master/%E3%80%8A%E5%9B%BE%E8%A7%A3TCP%20IP(%E7%AC%AC5%E7%89%88)%E3%80%8B.((%E6%97%A5)%E7%AB%B9%E4%B8%8B%E9%9A%86%E5%8F%B2).%5BPDF%5D.%26ckook.pdf)
+
+# 数据链路层
+## ARP协议
+[《图解TCP IP(第5版》第5.3章 ](https://github.com/3masterplus/book/blob/master/%E3%80%8A%E5%9B%BE%E8%A7%A3TCP%20IP(%E7%AC%AC5%E7%89%88)%E3%80%8B.((%E6%97%A5)%E7%AB%B9%E4%B8%8B%E9%9A%86%E5%8F%B2).%5BPDF%5D.%26ckook.pdf)
+
+## MAC地址
+[MAC地址、IP地址以及ARP协议P33-P35](https://www.bilibili.com/video/BV1c4411d7jb/?p=33&vd_source=894a223b85ae44e61e16dcd1a7356db0)
+
+# 网络传输场景
+## 两台电脑通信的过程
+[假如你来设计网络，会怎么做？](https://cloud.tencent.com/developer/article/1783804)
+
+## 访问网站的通信过程
+[键入网址到网页显示，期间发生了什么？](https://xiaolincoding.com/network/1_base/what_happen_url.html)
+
+## 网页异常排查
+[字节一面：网站显示不出来，怎么排查？](https://mp.weixin.qq.com/s/2dT9SlEhimW1conTVbZ8ZQ)
+
+## 连接一个不存在的 IP 地址，会发生什么？
+[字节面试：连接一个不存在的 IP 地址，会发生什么？](https://mp.weixin.qq.com/s/yLp6Z_00TsAwagbx_lEPXA)
+
+# 网络攻击
+## DDos攻击
+[DDoS 攻击](https://tsejx.github.io/javascript-guidebook/computer-networks/web-security/ddos/#%E5%BA%94%E7%94%A8%E5%B1%82-ddos-%E9%98%B2%E5%BE%A1)
+
+[DDoS技术鉴赏](https://www.bilibili.com/video/BV1KQ4y117nq/?spm_id_from=333.337.search-card.all.click&vd_source=894a223b85ae44e61e16dcd1a7356db0)
+
+## SYN 洪水攻击
+[什么是 SYN 洪水攻击？](https://www.cloudflare.com/zh-cn/learning/ddos/syn-flood-ddos-attack/)
+
+## DNS劫持
+[全球DNS劫持威胁](https://www.cloudflare.com/zh-cn/learning/security/global-dns-hijacking-threat/)
+
+## SQL注入攻击
+[SQL注入攻击原理，方法和类型](https://www.bilibili.com/video/BV1ZR4y1Y745/?spm_id_from=333.337.search-card.all.click&vd_source=894a223b85ae44e61e16dcd1a7356db0)
+
+[什么是 SQL 注入？](https://www.cloudflare.com/zh-cn/learning/security/threats/sql-injection/)
+
+[SQL注入：明明设置了强密码，为什么还会被别人登录？](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%ae%89%e5%85%a8%e6%94%bb%e9%98%b2%e6%8a%80%e8%83%bd30%e8%ae%b2/07%20SQL%e6%b3%a8%e5%85%a5%ef%bc%9a%e6%98%8e%e6%98%8e%e8%ae%be%e7%bd%ae%e4%ba%86%e5%bc%ba%e5%af%86%e7%a0%81%ef%bc%8c%e4%b8%ba%e4%bb%80%e4%b9%88%e8%bf%98%e4%bc%9a%e8%a2%ab%e5%88%ab%e4%ba%ba%e7%99%bb%e5%bd%95%ef%bc%9f.md)
+
+## CSRF跨站请求伪造攻击
+[CSRF_SSRF：为什么避免了XSS，还是“被发送”了一条微博？](https://learn.lianglianglee.com/%E4%B8%93%E6%A0%8F/%E5%AE%89%E5%85%A8%E6%94%BB%E9%98%B2%E6%8A%80%E8%83%BD30%E8%AE%B2/08%20CSRF_SSRF%EF%BC%9A%E4%B8%BA%E4%BB%80%E4%B9%88%E9%81%BF%E5%85%8D%E4%BA%86XSS%EF%BC%8C%E8%BF%98%E6%98%AF%E2%80%9C%E8%A2%AB%E5%8F%91%E9%80%81%E2%80%9D%E4%BA%86%E4%B8%80%E6%9D%A1%E5%BE%AE%E5%8D%9A%EF%BC%9F.md)
+
+[CSRF 跨站请求伪造攻击](https://tsejx.github.io/javascript-guidebook/computer-networks/web-security/csrf/)
+
+[CSRF 攻击和防御 - Web 安全常识](https://www.bilibili.com/video/BV1iW411171s/?spm_id_from=333.788.recommend_more_video.3&vd_source=894a223b85ae44e61e16dcd1a7356db0)
+
+## XSS跨站脚本攻击
+[XSS网络攻击 - 原理，类型和实践](https://www.bilibili.com/video/BV1rg411v7B8/?spm_id_from=333.788&vd_source=894a223b85ae44e61e16dcd1a7356db0)
+
+[XSS 跨站脚本攻击](https://tsejx.github.io/javascript-guidebook/computer-networks/web-security/xss/)
+
+[XSS：当你“被发送”了一条微博时，到底发生了什么？](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e5%ae%89%e5%85%a8%e6%94%bb%e9%98%b2%e6%8a%80%e8%83%bd30%e8%ae%b2/06%20XSS%ef%bc%9a%e5%bd%93%e4%bd%a0%e2%80%9c%e8%a2%ab%e5%8f%91%e9%80%81%e2%80%9d%e4%ba%86%e4%b8%80%e6%9d%a1%e5%be%ae%e5%8d%9a%e6%97%b6%ef%bc%8c%e5%88%b0%e5%ba%95%e5%8f%91%e7%94%9f%e4%ba%86%e4%bb%80%e4%b9%88%ef%bc%9f.md)
+
+## 网络攻击汇总
+[一文搞懂XSS攻击、SQL注入、CSRF攻击、DDOS攻击和DNS劫持](https://zhuanlan.zhihu.com/p/578098922)
+
+# 网络代理
+## 正向代理和反向代理
+[终于有人把正向代理和反向代理解释的明明白白了！](https://cloud.tencent.com/developer/article/1418457)
+
+## 负载均衡
+[高性能负载均衡：分类及架构](https://learn.lianglianglee.com/%E4%B8%93%E6%A0%8F/%E4%BB%8E%200%20%E5%BC%80%E5%A7%8B%E5%AD%A6%E6%9E%B6%E6%9E%84/20%20%E9%AB%98%E6%80%A7%E8%83%BD%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1%EF%BC%9A%E5%88%86%E7%B1%BB%E5%8F%8A%E6%9E%B6%E6%9E%84.md)
+
+[负载均衡|凤凰架构](https://icyfenix.cn/architect-perspective/general-architecture/diversion-system/load-balancing.html)
+
+[负载均衡是什么（超级详细）](https://c.biancheng.net/view/9823.html)
+
+## 负载均衡算法
+[高性能负载均衡：算法](https://learn.lianglianglee.com/%E4%B8%93%E6%A0%8F/%E4%BB%8E%200%20%E5%BC%80%E5%A7%8B%E5%AD%A6%E6%9E%B6%E6%9E%84/21%20%E9%AB%98%E6%80%A7%E8%83%BD%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1%EF%BC%9A%E7%AE%97%E6%B3%95.md)
+
+[面试官：你背一下负载均衡算法？](https://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ==&mid=2247530864&idx=2&sn=6bd22fd310534b35eaee0683bf8b7ec1&chksm=f98d3ddacefab4cc364ae0e2b78fa807262e1c3fafea79f882aa5c29f48d59a88e3fe1acfb53&token=1615262746&lang=zh_CN#rd)
