@@ -157,3 +157,27 @@
 
 ### TCP粘包和拆包
 [粘包拆包问题：如何获取一个完整的网络包？](https://learn.lianglianglee.com/%E4%B8%93%E6%A0%8F/Netty%20%E6%A0%B8%E5%BF%83%E5%8E%9F%E7%90%86%E5%89%96%E6%9E%90%E4%B8%8E%20RPC%20%E5%AE%9E%E8%B7%B5-%E5%AE%8C/06%20%20%E7%B2%98%E5%8C%85%E6%8B%86%E5%8C%85%E9%97%AE%E9%A2%98%EF%BC%9A%E5%A6%82%E4%BD%95%E8%8E%B7%E5%8F%96%E4%B8%80%E4%B8%AA%E5%AE%8C%E6%95%B4%E7%9A%84%E7%BD%91%E7%BB%9C%E5%8C%85%EF%BC%9F.md)
+
+### TCP异常
+[TCP 连接，一端断电和进程崩溃有什么区别？](https://xiaolincoding.com/network/3_tcp/tcp_down_and_crash.html)
+
+[拔掉网线后， 原本的 TCP 连接还存在吗？](https://xiaolincoding.com/network/3_tcp/tcp_unplug_the_network_cable.html#%E6%8B%94%E6%8E%89%E7%BD%91%E7%BA%BF%E5%90%8E-%E6%9C%89%E6%95%B0%E6%8D%AE%E4%BC%A0%E8%BE%93)
+
+### TCP保活机制
+[TCP Keepalive 和 HTTP Keep-Alive 是一个东西吗？](https://xiaolincoding.com/network/3_tcp/tcp_http_keepalive.html#http-%E7%9A%84-keep-alive)
+
+### TCP Socket
+[套接字Socket：Talk is cheap, show me the code](https://learn.lianglianglee.com/%E4%B8%93%E6%A0%8F/%E8%B6%A3%E8%B0%88%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE/13%20%E5%A5%97%E6%8E%A5%E5%AD%97Socket%EF%BC%9ATalk%20is%20cheap,%20show%20me%20the%20code.md)
+
+## UDP
+### UDP vs TCP
+[TCP vs UDP——哪个协议更快？](https://www.freecodecamp.org/chinese/news/tcp-vs-udp-which-is-faster/)
+
+[UDP 协议：UDP 和 TCP 相比快在哪里？](https://learn.lianglianglee.com/%E4%B8%93%E6%A0%8F/%E9%87%8D%E5%AD%A6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F-%E5%AE%8C/34%20%20UDP%20%E5%8D%8F%E8%AE%AE%EF%BC%9AUDP%20%E5%92%8C%20TCP%20%E7%9B%B8%E6%AF%94%E5%BF%AB%E5%9C%A8%E5%93%AA%E9%87%8C%EF%BC%9F.md)
+
+[UDP协议：因性善而简单，难免碰到“城会玩”](https://learn.lianglianglee.com/%E4%B8%93%E6%A0%8F/%E8%B6%A3%E8%B0%88%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE/10%20UDP%E5%8D%8F%E8%AE%AE%EF%BC%9A%E5%9B%A0%E6%80%A7%E5%96%84%E8%80%8C%E7%AE%80%E5%8D%95%EF%BC%8C%E9%9A%BE%E5%85%8D%E7%A2%B0%E5%88%B0%E2%80%9C%E5%9F%8E%E4%BC%9A%E7%8E%A9%E2%80%9D.md)
+
+### UDP实现可靠传输
+[如何基于 UDP 协议实现可靠传输？](https://www.cnblogs.com/xiaolincoding/p/16347800.html)
+
+# 网络层
